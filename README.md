@@ -2,7 +2,7 @@
 
 A raised button that lowers down to 0dp of elevation.
 
-<img src="screenshots/demo.gif" width="400">
+<img src="screens/demo.gif" width="400">
 
 ## Build
 
