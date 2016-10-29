@@ -10,6 +10,7 @@ It behaves like a normal button on APIs < 21
 
 Jcenter request submitted. I'll update this section later.
 
+```groovy
 repositories {
    maven {
         url 'https://dl.bintray.com/rubensousa/maven'
@@ -19,7 +20,7 @@ repositories {
 dependencies {
    compile 'com.github.rubensousa:raiflatbutton:0.1'
 }
-
+```
 
 ## How to
 
