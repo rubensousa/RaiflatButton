@@ -8,8 +8,7 @@ It behaves like a normal button on APIs < 21
 
 ## Build
 
-I'll upload it to jcenter in the next couple of days.
-For now, you can just test the sample.
+For now, you can just test the sample or import the library locally. I'll add jcenter later.
 
 ## How to
 
