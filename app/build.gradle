@@ -1,5 +1,12 @@
 apply plugin: 'com.android.application'
 
+repositories {
+    maven {
+        url 'https://dl.bintray.com/rubensousa/maven'
+    }
+}
+
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
@@ -23,5 +30,5 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.0'
-    compile project(':raiflatbutton')
+    compile 'com.github.rubensousa:raiflatbutton:0.1'
 }

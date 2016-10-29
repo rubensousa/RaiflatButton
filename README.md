@@ -8,7 +8,18 @@ It behaves like a normal button on APIs < 21
 
 ## Build
 
-For now, you can just test the sample or import the library locally. I'll add jcenter later.
+Jcenter request submitted. I'll update this section later.
+
+repositories {
+   maven {
+        url 'https://dl.bintray.com/rubensousa/maven'
+   }
+}
+
+dependencies {
+   compile 'com.github.rubensousa:raiflatbutton:0.1'
+}
+
 
 ## How to
 
