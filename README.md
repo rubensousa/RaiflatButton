@@ -1,6 +1,6 @@
 # RaiflatButton
 
-A raised button that lowers down to 0dp of elevation.
+A raised button that lowers down to 0dp of elevation. From my blog post: https://rubensousa.github.io/2016/10/raiflatbutton
 
 It behaves like a normal button on APIs < 21
 
