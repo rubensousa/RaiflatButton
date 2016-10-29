@@ -40,32 +40,6 @@ Example:
 </style>
 ```
 
-### Snapping center:
-
-```java
-SnapHelper snapHelper = new LinearSnapHelper();
-snapHelper.attachToRecyclerView(recyclerView);
-```
-
-### Snapping start with GravitySnapHelper:
-
-```java
-startRecyclerView.setLayoutManager(new LinearLayoutManager(this,
-                LinearLayoutManager.HORIZONTAL, false));
-                
-SnapHelper snapHelperStart = new GravitySnapHelper(Gravity.START);
-snapHelperStart.attachToRecyclerView(startRecyclerView);
-```
-
-### Snapping top with GravitySnapHelper:
-
-```java
-topRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-                
-SnapHelper snapHelperTop = new GravitySnapHelper(Gravity.TOP);
-snapHelperTop.attachToRecyclerView(topRecyclerView);
-```
-
 ## License
 
     Copyright 2016 Rúben Sousa
