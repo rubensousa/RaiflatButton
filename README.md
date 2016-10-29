@@ -38,7 +38,7 @@ button.setFlatEnabled(false);
 
 ## Styling
 
-Since RaiflatButton and RaiflatImageButton both extend AppCompatButton and AppCompatImageButton, you can reuse the same styles.
+Since RaiflatButton and RaiflatImageButton both extend AppCompatButton and AppCompatImageButton, you can reuse the same AppCompat styles.
 
 Example:
 
