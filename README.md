@@ -2,6 +2,8 @@
 
 A raised button that lowers down to 0dp of elevation.
 
+<img src="screenshots/demo.gif" width="400">
+
 ## Build
 
 I'll upload it to jcenter in the next couple of days.
@@ -20,12 +22,15 @@ Just add the following xml to your layout:
     android:text="Colored" />
     
 <com.github.rubensousa.raiflatbutton.RaiflatImageButton
-        android:id="@+id/imageButton"
-        style="@style/Base.Widget.AppCompat.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_android" />
+    android:id="@+id/imageButton"
+    style="@style/Base.Widget.AppCompat.Button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_android" />
 ```
+
+If you want to resume the normal button behavior, just use:
+
 
 
 ## Styling

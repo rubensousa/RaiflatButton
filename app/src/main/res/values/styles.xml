@@ -8,4 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="RaiflatButtonMergeStyle" parent="Base.Widget.AppCompat.Button.Colored">
+    </style>
 </resources>

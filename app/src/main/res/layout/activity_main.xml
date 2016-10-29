@@ -48,7 +48,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:text="Without ripple"
-            android:theme="@style/FlatButtonNoRippleStyle" />
+            android:theme="@style/RaiflatButtonNoRippleStyle" />
 
         <com.github.rubensousa.raiflatbutton.RaiflatButton
             android:id="@+id/mergeRippleButton"
@@ -56,7 +56,7 @@
             android:layout_height="60dp"
             android:layout_weight="1"
             android:text="Merge ripple"
-            android:theme="@style/FlatButtonMergeStyle" />
+            android:theme="@style/RaiflatButtonMergeStyle" />
 
     </LinearLayout>
 
