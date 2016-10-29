@@ -33,7 +33,9 @@ Just add the following xml to your layout:
 
 If you want to resume the normal button behavior, just use:
 
-
+```java
+button.setFlatEnabled(false);
+```
 
 ## Styling
 
