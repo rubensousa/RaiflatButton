@@ -2,6 +2,8 @@
 
 A raised button that lowers down to 0dp of elevation.
 
+It behaves like a normal button on APIs < 21
+
 <img src="screens/demo.gif" width="400">
 
 ## Build
