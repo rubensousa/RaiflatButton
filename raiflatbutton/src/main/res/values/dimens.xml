@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="button_elevation">2dp</dimen>
+    <dimen name="button_translation">4dp</dimen>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FlatButtonPrimaryStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:colorControlNormal">?attr/colorPrimary</item>
+    </style>
+
+    <style name="FlatButtonNoRippleStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+</resources>

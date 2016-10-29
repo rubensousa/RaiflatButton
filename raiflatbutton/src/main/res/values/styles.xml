@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="FlatButtonPrimaryStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorControlNormal">?attr/colorPrimary</item>
+    </style>
+
+</resources>

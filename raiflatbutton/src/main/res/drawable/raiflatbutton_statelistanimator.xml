@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- If you want the same behavior for other views, you can use this StateListAnimator -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_enabled="true">
+        <set>
+            <objectAnimator android:propertyName="translationZ"
+                android:duration="@android:integer/config_shortAnimTime"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+            <objectAnimator android:propertyName="elevation"
+                android:duration="@android:integer/config_shortAnimTime"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator android:propertyName="elevation"
+                android:duration="0"
+                android:valueTo="@dimen/button_elevation"
+                android:valueType="floatType" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:propertyName="translationZ"
+                android:duration="0"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+            <objectAnimator android:propertyName="elevation"
+                android:duration="0"
+                android:valueTo="0"
+                android:valueType="floatType"/>
+        </set>
+    </item>
+</selector>
