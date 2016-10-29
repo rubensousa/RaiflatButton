@@ -35,7 +35,7 @@ Since RaiflatButton and RaiflatImageButton both extend AppCompatButton and AppCo
 Example:
 
 ```xml
-<style name="FlatButtonPrimaryStyle" parent="Base.Widget.AppCompat.Button.Colored">
+<style name="RaiflatButtonPrimaryStyle" parent="Base.Widget.AppCompat.Button.Colored">
     <item name="android:colorControlNormal">?attr/colorPrimary</item>
 </style>
 ```
