@@ -1,3 +1,19 @@
+/*
+ * Copyright 2016 Rúben Sousa
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 package com.github.rubensousa.raiflatbutton;
 
 import android.content.Context;
@@ -10,13 +26,12 @@ import android.util.AttributeSet;
 /**
  * A button that lowers down to 0dp of elevation when it's pressed
  */
-public class RaiflatButton extends AppCompatButton{
+public class RaiflatButton extends AppCompatButton {
 
     private RaiflatDelegate mDelegate;
 
     public RaiflatButton(Context context) {
-        super(context);
-        init(context, null);
+        this(context, null);
     }
 
     public RaiflatButton(Context context, AttributeSet attrs) {
@@ -31,7 +46,7 @@ public class RaiflatButton extends AppCompatButton{
 
     private void init(Context context, AttributeSet attrs) {
         mDelegate = new RaiflatDelegate(this);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && attrs != null) {
             TypedArray typedArray = context.obtainStyledAttributes(attrs,
                     R.styleable.RaiflatButton);
             mDelegate.setup(typedArray.getBoolean(R.styleable.RaiflatButton_flatten, true));
